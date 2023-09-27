@@ -112,3 +112,4 @@ const noDuplicateArray = (...array) => { // this function will take multiple arr
   const combineArray = [].concat(...array) // this will combine both arrays together using concat
   return [...new Set(combineArray)] // this will make a Set and will get rid of any duplicates in the combined array, using new and Set. the spread operator will transport the elements of the set back into an array
 }
+// 
